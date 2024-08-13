@@ -1,64 +1,52 @@
 @page "/about"
 
-<PageTitle>About</PageTitle>
+<PageTitle>Sobre</PageTitle>
 
-<MudText Typo="Typo.h3" GutterBottom="true">About!</MudText>
-<MudText Class="mb-8">Welcome to your new app, powered by MudBlazor and the .NET 8 Template!</MudText>
+<br>
+<MudText Typo="Typo.h3" GutterBottom="true">Sobre</MudText>
+<MudText Class="mb-8">Aqui você encontra sua vaga de emprego.
+</MudText>
 
-<MudAlert Severity="Severity.Normal">
-    You can find documentation and examples on our website here:
-    <MudLink Href="https://mudblazor.com" Target="_blank" Typo="Typo.body2" Color="Color.Primary">
-        <b>www.mudblazor.com</b>
-    </MudLink>
+<MudAlert Severity="Severity.Info">
+    Banco de dados e vagas atualizadas em tempo real.
 </MudAlert>
 
 <br />
-<MudText Typo="Typo.h5" GutterBottom="true">Interactivity in this Template</MudText>
+<MudText Typo="Typo.h5" GutterBottom="true">/ Oportunidades de trabalho em um só lugar /</MudText>
 <br />
 <MudText Typo="Typo.body2">
-    When you opt for the "Global" Interactivity Location, <br />
-    the render modes are defined in App.razor and consequently apply to all child components.<br />
-    In this case, providers are globally set in the MainLayout.<br />
-    <br />
-    On the other hand, if you choose the "Per page/component" Interactivity Location,<br />
-    it is necessary to include the <br />
-    <br />
-    &lt;MudPopoverProvider /&gt; <br />
-    &lt;MudDialogProvider /&gt; <br />
-    &lt;MudSnackbarProvider /&gt; <br />
-    <br />
-    components on every interactive page.<br />
-    <br />
-    If a render mode is not specified for a page, it defaults to Server-Side Rendering (SSR),<br />
-    similar to this page. While MudBlazor allows pages to be rendered in SSR,<br />
-    please note that interactive features, such as buttons and dropdown menus, will not be functional.
+    A Serra Gaúcha, conhecida por sua beleza natural e rica herança cultural, também se destaca como uma região
+    promissora em termos de oportunidades de emprego. Com uma economia diversificada, a região oferece vagas em vários
+    setores, proporcionando um ambiente propício para o desenvolvimento profissional.
 </MudText>
 
 <br />
-<MudText Typo="Typo.h5" GutterBottom="true">What's New in Blazor with the Release of .NET 8</MudText>
-<br />
-<MudText Typo="Typo.h6" GutterBottom="true">Prerendering</MudText>
+
 <MudText Typo="Typo.body2" GutterBottom="true">
-    If you're exploring the features of .NET 8 Blazor,<br /> you might be pleasantly surprised to learn that each page
-    is prerendered on the server,<br /> regardless of the selected render mode.<br /><br />
-    This means that you'll need to inject all necessary services on the server,<br /> even when opting for the wasm
-    (WebAssembly) render mode.<br /><br />
-    This prerendering functionality is crucial to ensuring that WebAssembly mode feels fast and responsive,<br />
-    especially when it comes to initial page load times.<br /><br />
-    For more information on how to detect prerendering and leverage the RenderContext, you can refer to the following
-    link:
-    <MudLink Href="https://github.com/dotnet/aspnetcore/issues/51468#issuecomment-1783568121" Target="_blank"
-        Typo="Typo.body2" Color="Color.Primary">
-        More details
-    </MudLink>
+    <MudText Typo="Typo.h6" GutterBottom="true">1. Turismo e Hospitalidade:</MudText>
+    A Serra Gaúcha é um dos principais destinos turísticos do Brasil, atraindo milhares de visitantes anualmente,
+    especialmente em cidades como Gramado, Canela, e Bento Gonçalves. Com isso, há uma alta demanda por profissionais
+    nas áreas de hotelaria, gastronomia, e serviços turísticos. Vagas para recepcionistas, chefs, guias turísticos, e
+    gestores de eventos são frequentes.
+    <br /> <br />
+    <MudText Typo="Typo.h6" GutterBottom="true">2 Indústria Vinícola</MudText>
+    A região é famosa por sua produção de vinhos de alta qualidade, com vinícolas renomadas que exportam para o mundo
+    inteiro. Profissionais especializados em enologia, agronomia, e gestão agrícola encontram muitas oportunidades de
+    trabalho, além de funções em marketing, vendas, e turismo enogastronômico.
+    <br /> <br />
+    <MudText Typo="Typo.h6" GutterBottom="true">3. Indústria Metalúrgica e Automotiva</MudText>
+    Cidades como Caxias do Sul são polos industriais importantes, especialmente nas áreas metalúrgica e automotiva. Há
+    uma demanda constante por engenheiros, técnicos, operários especializados, e profissionais de logística e gestão
+    industrial.
+    <br /> <br />
+    <MudText Typo="Typo.h6" GutterBottom="true">4. Tecnologia da Informação:</MudText>
+    O setor de tecnologia também está em crescimento na Serra Gaúcha, com startups e empresas estabelecidas buscando
+    desenvolvedores de software, analistas de sistemas, e especialistas em TI. A região está se consolidando como um hub
+    de inovação, oferecendo boas oportunidades para quem busca uma carreira em tecnologia.
+    <br /> <br />
+    <MudText Typo="Typo.h6" GutterBottom="true">5. Agricultura e Agroindústria:</MudText>
+    A produção agrícola, especialmente de frutas como uvas, maçãs, e pêssegos, é uma base econômica importante na Serra
+    Gaúcha. Há vagas para agrônomos, técnicos agrícolas, e profissionais em processamento de alimentos, além de funções
+    em áreas administrativas e de gestão de propriedades rurais.
 </MudText>
-
 <br />
-<MudText Typo="Typo.h6" GutterBottom="true">InteractiveAuto</MudText>
-<MudText Typo="Typo.body2">
-    A discussion on how to achieve this can be found here:
-    <MudLink Href="https://github.com/dotnet/aspnetcore/issues/51468#issue-1950424116" Target="_blank" Typo="Typo.body2"
-        Color="Color.Primary">
-        More details
-    </MudLink>
-</MudText>

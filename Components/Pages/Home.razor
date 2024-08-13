@@ -2,63 +2,30 @@
 
 <PageTitle>Home</PageTitle>
 
+<br>
 <MudText Typo="Typo.h3" GutterBottom="true">Olá, Seja bem vindo(a)!</MudText>
-<MudText Class="mb-8">Seja bem vindo ao nosso aplicativo.</MudText>
+<MudText Class="mb-8">Seja bem vindo ao nosso APP web.</MudText>
 
-<MudAlert Severity="Severity.Normal">
-    You can find documentation and examples on our website here:
-    <MudLink Href="https://mudblazor.com" Target="_blank" Typo="Typo.body2" Color="Color.Primary">
-        <b>www.mudblazor.com</b>
-    </MudLink>
+<MudAlert Severity="Severity.Info">
+    Busca por oportunidades de trabalho em uma das regiões mais prósperas do Rio Grande do Sul.
 </MudAlert>
 
 <br />
-<MudText Typo="Typo.h5" GutterBottom="true">Interactivity in this Template</MudText>
-<br />
+<MudText Typo="Typo.h5" GutterBottom="true">Como funciona?</MudText>
 <MudText Typo="Typo.body2">
-    When you opt for the "Global" Interactivity Location, <br />
-    the render modes are defined in App.razor and consequently apply to all child components.<br />
-    In this case, providers are globally set in the MainLayout.<br />
-    <br />
-    On the other hand, if you choose the "Per page/component" Interactivity Location,<br />
-    it is necessary to include the <br />
-    <br />
-    &lt;MudPopoverProvider /&gt; <br />
-    &lt;MudDialogProvider /&gt; <br />
-    &lt;MudSnackbarProvider /&gt; <br />
-    <br />
-    components on every interactive page.<br />
-    <br />
-    If a render mode is not specified for a page, it defaults to Server-Side Rendering (SSR),<br />
-    similar to this page. While MudBlazor allows pages to be rendered in SSR,<br />
-    please note that interactive features, such as buttons and dropdown menus, will not be functional.
+    Atuamos como uma plataforma dedicada a conectar candidatos e empresas da região. Ela permite que as empresas locais
+    publiquem vagas de emprego em diferentes setores, como turismo, indústria, tecnologia, e agricultura, enquanto os
+    candidatos podem pesquisar por oportunidades que correspondam ao seu perfil e qualificações.
+</MudText>
+<br>
+<MudText Typo="Typo.h5" GutterBottom="true">Mais informações</MudText>
+<MudText Typo="Typo.body2">
+    Além de listar vagas, o site pode oferecer recursos como criação de currículos online, alertas de vagas, e dicas de
+    carreira, tornando-se uma ferramenta essencial tanto para empregadores quanto para quem está em busca de novas
+    oportunidades na Serra Gaúcha.
 </MudText>
 
-<br />
-<MudText Typo="Typo.h5" GutterBottom="true">What's New in Blazor with the Release of .NET 8</MudText>
-<br />
-<MudText Typo="Typo.h6" GutterBottom="true">Prerendering</MudText>
-<MudText Typo="Typo.body2" GutterBottom="true">
-    If you're exploring the features of .NET 8 Blazor,<br /> you might be pleasantly surprised to learn that each page
-    is prerendered on the server,<br /> regardless of the selected render mode.<br /><br />
-    This means that you'll need to inject all necessary services on the server,<br /> even when opting for the wasm
-    (WebAssembly) render mode.<br /><br />
-    This prerendering functionality is crucial to ensuring that WebAssembly mode feels fast and responsive,<br />
-    especially when it comes to initial page load times.<br /><br />
-    For more information on how to detect prerendering and leverage the RenderContext, you can refer to the following
-    link:
-    <MudLink Href="https://github.com/dotnet/aspnetcore/issues/51468#issuecomment-1783568121" Target="_blank"
-        Typo="Typo.body2" Color="Color.Primary">
-        More details
-    </MudLink>
-</MudText>
+<br>
+<br>
 
-<br />
-<MudText Typo="Typo.h6" GutterBottom="true">InteractiveAuto</MudText>
-<MudText Typo="Typo.body2">
-    A discussion on how to achieve this can be found here:
-    <MudLink Href="https://github.com/dotnet/aspnetcore/issues/51468#issue-1950424116" Target="_blank" Typo="Typo.body2"
-        Color="Color.Primary">
-        More details
-    </MudLink>
-</MudText>
+<MudButton Variant="Variant.Filled" Size="Size.Large" Color="Color.Primary">Começar</MudButton>
